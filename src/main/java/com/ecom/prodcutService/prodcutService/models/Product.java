@@ -1,7 +1,7 @@
 package com.ecom.prodcutService.prodcutService.models;
 
 
-import jakarta.persistence.*;
+import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -17,5 +17,5 @@ public class Product {
     private String name;
     private String description;
     private Double price;
-    // No stock field here
+
 }
